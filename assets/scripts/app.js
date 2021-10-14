@@ -6,7 +6,7 @@ function add(num1, num2) {
   alert('Result ' + result);
 }
 
-add(3, 23);
+add(3, 22);
 
 currentResult = ((currentResult + 10) * 3) / 2 - 1;
 
