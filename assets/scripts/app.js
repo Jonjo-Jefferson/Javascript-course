@@ -3,12 +3,12 @@ let currentResult = defaultResult;
 
 function add(num1, num2) {
   const result = num1 + num2;
-  alert('Result ' + result);
+  return result;
 }
 
-add(3, 22);
+currentResult = add(42, 22);
 
-currentResult = ((currentResult + 10) * 3) / 2 - 1;
+console.log(currentResult);
 
 let calculationDescription = `(${defaultResult} + 10) * 3 / 2 - 1`;
 
